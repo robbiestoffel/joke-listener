@@ -42,7 +42,7 @@ ul .nav {
 header {
     position: fixed;
     background-color: rgb(25,25,25);
-    top: 1px;
+    top: 5px;
     left: 10px;
     z-index: 999;
     border-color: black;
