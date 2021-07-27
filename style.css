@@ -1,16 +1,3 @@
-p {
-    font-family: 'Viga', serif;
-}
-
-h1 h2 {
-    font-family: 'Bree Serif', serif;
-    text-align: center;
-}
-
-.title {
-    margin-left: 5rem;
-}
-
 a {
     color: lightslategrey;
 }
@@ -24,35 +11,6 @@ body {
     color: white;
 }
 
-#about {
-    margin-left: 50px;
-}
-
-#coding {
-    position: relative;
-    display: inline-block; /* Make the width of box same as image */
-    width: 100%;
-}
-
-#coding .coding-text {
-    position: absolute;
-    z-index: 2;
-    margin 0 auto;
-    top: 30%; /* Adjust this value to move the positioned div up and down */
-    text-align: center;
-    /*width: 70%; /* Set the width of the positioned div */
-    font-size: 20px;
-}
-
-.coding-text {
-    background-color: rgba(25, 25, 25, 90%);
-    right: 10em;
-    left: 10em;
-}
-
-.coding-img {
-    width: 100%;
-}
 /**
 ul .nav {
   text-align: center;
