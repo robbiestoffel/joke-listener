@@ -1,0 +1,132 @@
+p {
+    font-family: 'Viga', serif;
+}
+
+h1 h2 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+.title {
+    margin-left: 5rem;
+}
+
+a {
+    color: lightslategrey;
+}
+
+a:hover {
+    color: tomato;
+}
+
+body {
+    background-color: rgb(25,25,25);
+    color: white;
+}
+
+#about {
+    margin-left: 50px;
+}
+
+#coding {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    width: 100%;
+}
+
+#coding .coding-text {
+    position: absolute;
+    z-index: 2;
+    margin 0 auto;
+    top: 30%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    /*width: 70%; /* Set the width of the positioned div */
+    font-size: 20px;
+}
+
+.coding-text {
+    background-color: rgba(25, 25, 25, 90%);
+    right: 10em;
+    left: 10em;
+}
+
+.coding-img {
+    width: 100%;
+}
+/**
+ul .nav {
+  text-align: center;
+  list-style: none;
+  margin-top: -23px;
+  margin:0px;
+  text-align: left;
+}
+
+.nav {
+  display: inline-block;
+  margin: 40px;
+  border-color: lightslategray;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nav:hover {
+    box-shadow: 0px 0px 10px 9px lightslategray;
+}
+
+.navflexbox {
+    display: flex;
+    justify-content: right;
+}
+**/
+header {
+    position: fixed;
+    background-color: rgb(25,25,25);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    z-index: 20;
+}
+
+main {
+    display: block;
+    margin: auto;
+    margin-top: 7em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: dark-gray;
+}
+
+.footerdiv {
+    margin-right: 1rem;
+    border-color: lightslategray;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.footerdiv:hover {
+    box-shadow: 0px 0px 10px 9px lightslategray;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+  border: 1px solid blue;
+  color: lightblue;
+}
