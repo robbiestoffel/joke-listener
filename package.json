@@ -1,0 +1,23 @@
+{
+  "name": "joke-listener",
+  "version": "1.0.0",
+  "description": "FOR ALDEN",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiestoffel/joke-listener.git"
+  },
+  "author": "Robster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbiestoffel/joke-listener/issues"
+  },
+  "homepage": "https://github.com/robbiestoffel/joke-listener#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "fs": "^0.0.1-security"
+  }
+}
